@@ -1,20 +1,29 @@
 # OS
 .DS_Store
-Thumbs.db
 
-# Python
-.venv/
-__pycache__/
+# Python (backend)
 *.pyc
-app.db
+__pycache__/
+.venv/
+.env
+env/
+*.sqlite3
+*.db
+backend/app.db
 
-# Node / Next.js
-web/node_modules/
+# Node/Next.js (web)
+node_modules/
+.next/
+out/
+web/.env
+web/.env.*.local
 web/.next/
-web/.turbo/
-web/.env.local
-web/.vercel/
+web/node_modules/
 
-# Logs
+# Logs & misc
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.swp
