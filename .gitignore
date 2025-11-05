@@ -1,29 +1,20 @@
-# OS
+# macOS
 .DS_Store
 
-# Python (backend)
-*.pyc
-__pycache__/
-.venv/
-.env
-env/
-*.sqlite3
-*.db
-backend/app.db
-
-# Node/Next.js (web)
+# Node/Next.js
 node_modules/
 .next/
 out/
-web/.env
-web/.env.*.local
-web/.next/
-web/node_modules/
-
-# Logs & misc
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-*.swp
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# SQLite / local files
+app.db
+
+# Env/secrets
+.env
+.env.local
